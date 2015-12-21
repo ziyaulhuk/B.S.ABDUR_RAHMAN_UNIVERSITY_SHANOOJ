@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>E-Commerce Website Ziyaul Huk</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.easydropdown.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script language="JavaScript" >
+
+function getSubmit()
+{
+var xmlhttp;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET","insert.php?nm="+document.getElementById("name").value+"&cn="+document.getElementById("cardno").value+"&cv="+document.getElementById("cvv").value+"&cn="+document.getElementById("cardno").value+"&name1="+document.getElementById("name1").value+"&quantity="+document.getElementById("quan").value,false);
+xmlhttp.send(null);
+}
+</script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<span class="menu"></span>
+			<div class="m-clear"></div>
+			<div class="navigation">
+				<ul class="navig">
+					<li><a href="#">Home</a></li>
+					<li><a href="#save" >save 25%</a></li>
+					<li><a href="#feture" >features</a></li>
+					<li><a href="#review">REviews</a></li>
+					<li><a href="#buy" >buy now</a></li>
+				</ul>
+				<script>
+					$( "span.menu" ).click(function() {
+					  $( ".navigation" ).slideToggle( "slow", function() {
+					  });
+					});
+				</script>
+			</div>
+			<div class="clerfix"></div>
+			<div class="banner">
+				<h1>alloy jacket</h1>
+				<p>Optimize your weather protection without sacrificing breathability or mobility with a hybrid hard-and-soft shell jacket.</p>
+				<a href="#">25% off MRP</a>
+			</div>
+		</div>
+	</div>
+	<div class="save" id="save">
+		<div class="container">
+			<div class="row save-row">
+				<div class="col-md-6 save-column">
+					<div class="save-grid">
+						<p>MRP<br>INR2800</p>
+						<div class="y-sale">
+							<span>25% OFF!</span>
+							<h3>INR2100</h3>
+							<small>We are Official Affiliates offering this exclusive deal to the India only.</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 save-column">
+					<div class="save-sale">
+						<h2>Save a whopping 25% off The North Face Alloy Jacket.  <span> India only deal!</span></h2>
+						<p>We've teamed up with 'The North Face' to offer you an incredible 25% off the Alloy Jacket - one of the latest and best jackets from the leading brand!<br> <span><strike> INR 2800</strike>  Save 25%     Our price: INR2100</span></p>
+						<ul class="share-list">
+							<li>share:</li>
+							<li><i class="fa"></i></li>
+							<li><i class="fb"></i></li>
+							<li><i class="fc"></i></li>
+							<li><i class="fd"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div  id="top" class="callbacks_container">
+     	 <ul class="rslides" id="slider1">
+      	  	<li>
+				<div class="features" id="feture">
+					<h3>introducing the north face alloy jacket -<span> packed with features</span></h3>
+					<div class="features-grid">
+						<h4>helmet compatible hood</h4>
+						<p>Fully adjustable, helmet-compatible hood with hidden cord locks and laminated wire brim.</p>
+					</div>
+					<div class="features-grid grid-2">
+						<h4>handwarmer pockets</h4>
+						<p>Harness and kit pack-friendly handwarmer pockets.</p>
+					</div>
+					<div class="features-grid grid-3">
+						<h4>cinch-cord</h4>
+						<p>Hidden hem cinch-cord at center front zip.</p>
+					</div>
+					<div class="features-grid-right">
+						<h4>built for extremes</h4>
+						<p>Wind-resistant body with waterproof areas on the Hood and Shoulders keeps you dry without sacrificing mobility.</p>
+					</div>
+					<div class="features-grid-right grid-4">
+						<h4>breathable fabric</h4>
+						<p>Soft shell fabric in the body allows for ample breathability.</p>
+					</div>
+					<div class="fet-but">
+						<a href="#">buy now!</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="features fetur-bg-2">
+					<h3>introducing the north face alloy jacket -<span> packed with features</span></h3>
+					<div class="features-grid">
+						<h4>helmet compatible hood</h4>
+						<p>Fully adjustable, helmet-compatible hood with hidden cord locks and laminated wire brim.</p>
+					</div>
+					<div class="features-grid grid-2">
+						<h4>handwarmer pockets</h4>
+						<p>Harness and kit pack-friendly handwarmer pockets.</p>
+					</div>
+					<div class="features-grid grid-3">
+						<h4>cinch-cord</h4>
+						<p>Hidden hem cinch-cord at center front zip.</p>
+					</div>
+					<div class="features-grid-right">
+						<h4>built for extremes</h4>
+						<p>Wind-resistant body with waterproof areas on the Hood and Shoulders keeps you dry without sacrificing mobility.</p>
+					</div>
+					<div class="features-grid-right grid-4">
+						<h4>breathable fabric</h4>
+						<p>Soft shell fabric in the body allows for ample breathability.</p>
+					</div>
+					<div class="fet-but">
+						<a href="#">buy now!</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+		<script>
+		    $(function () {
+		      $("#slider1").responsiveSlides({
+		        auto: true,
+		        pager: true,
+		        nav: true,
+		        speed: 500,
+		        namespace: "callbacks",
+		        before: function () {
+		          $('.events').append("<li>before event fired.</li>");
+		        },
+		        after: function () {
+		          $('.events').append("<li>after event fired.</li>");
+		        }
+		      });
+		
+		    });
+		  </script>
+	<div class="reviews" id="review">
+		<div class="container">
+			<h3>reviews by those who know</h3>
+			<div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			        	<div class="slider-top">
+							<p>"As far as I know this is an awesome jacket, this is just a filler to show you how it could look within the design and how feedback from respected experts can make an item more desirable."</p>
+							<a href="#"><img src="images/r-logo.png"  alt=""></a>
+							<p class="rev">Abdul Muhsin, Chennai.</p>
+						</div>
+			        </li>
+			        <li>
+			        	<div class="slider-top">
+							<p>"As far as I know this is an awesome jacket, this is just a filler to show you how it could look within the design and how feedback from respected experts can make an item more desirable."</p>
+							<a href="#"><img src="images/r-logo.png"  alt=""></a>
+							<p class="rev">Abdul Muhsin, Chennai.</p>
+						</div>
+			        </li>
+			      </ul>
+			</div>
+
+		</div>
+	</div>
+	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    $(function () {
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	<div class="buy-g" id="buy">
+		<div class="container">
+			<div class="buy-g-top">
+				<h3>buy the north face alloy jacket now - <span>save 25%</span></h3>
+			</div>
+			<div class="row buy-g-row">
+				<div class="col-md-4 buy-g-col">
+					<div  id="top" class="callbacks_container">
+				      <ul class="rslides" id="slider2">
+				        <li>
+							<div class="shirt-slide">
+								<img src="images/b-t-s.jpg" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="shirt-slide">
+								<img src="images/r-t-s.jpg" alt="">
+							</div>
+						</li>
+					  </ul>
+					</div>
+					<script>
+					    $(function () {
+					      $("#slider2").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					
+					    });
+					  </script>
+						</div>
+				<div class="col-md-8 buy-g-col">
+				
+					<div class="sap_tabs">	
+				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Step 1: Choose</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Step 2: Delivery</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Step 3: Payment</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Step 4: Confirmation</span></li>
+							  <div class="clearfix"></div>
+						  </ul>				  	 
+							<div class="resp-tabs-container">
+							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="facts">
+											<div class="colors">
+										  	  <div class="dropdown-button">           			
+						            			<select class="dropdown" data-settings='{"wrapperClass":"flat"}'>
+								            		<option value="null">Colour</option>         
+										            <option value="AX">Red</option>
+										            <option value="AF">Green</option>
+										            <option value="AL">Yellow</option>
+										            <option value="DZ">Pink</option>
+										            <option value="AS">White</option>
+										            <option value="AD">Blue</option>
+										            <option value="AO">Orange</option>
+										            <option value="AI">Silver</option>
+										            <option value="AQ">Black</option>
+											  </select>
+											</div>
+										  </div>
+										  <div class="colors">
+										  	  <div class="dropdown-button">           			
+						            			<select class="dropdown" data-settings='{"wrapperClass":"flat size"}'>
+								            		<option value="null">Size</option>         
+										            <option value="AX">S</option>
+										            <option value="AF">M</option>
+										            <option value="AL">L</option>
+										            <option value="DZ">XL</option>
+										            <option value="AS">XXL</option>
+										           </select>
+											</div>
+										  </div>
+										  <div class="clearfix"></div>
+										  <div class="form-head">
+												<div>
+													<span class="user-icon"></span>
+													<input type="text" placeholder="Quantity" id="quan" required />
+												</div>
+											</div>
+											<div class="form-head">
+												<div>
+													<span class="promo"></span>
+													<input type="text" placeholder="Promo Code" required />
+												</div>
+											</div>
+											<div class="clearfix"></div>
+											<div class="step-f">
+												<input type="submit" value="STEP 2" aria-controls="tab_item-1" role="tab"/>
+											</div>
+							        </div>
+							     </div>	
+							      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+							      			<div class="delivery">
+							      				<h4>Enter Your Name</h4>
+							      				<input type="text" placeholder="Name" id="name1" required />
+							      			</div>
+							      			<div class="clearfix"></div>
+							      			<div class="delivery-ad">
+							      				<h4>Write Address Below</h4>
+							      				<textarea placeholder="Address" required=""></textarea>
+							      			</div>
+							      			<div class="step-f step-e">
+												<input type="submit" value="STEP 3" aria-controls="tab_item-2" role="tab"/>
+											</div>
+							     </div>	
+							      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							      		<div class="payment">
+							      			<h4>Payment Options</h4>
+							      			<div class="card">
+							      				<p>Card Options</p>
+							      				<input type="radio" name="1"/> Visa
+							      				<input type="radio"  name="1"/> Master card
+							      				</div>
+							      			<div class="card cardy">
+							      				<p>Card Holder's Name</p>
+							      				<input type="text" placeholder="Name" required="" id="name"/>
+							      			</div>
+							      			<div class="card cardy">
+							      				<p>Card number</p>
+							      				<input type="text" placeholder="Number" required="" id="cardno"/>
+							      			</div>
+							      			<div class="clearfix"></div>
+							      			<div class="card cardy">
+							      				<p>Card Expiry Date</p>
+							      				<select class="month">
+							      						<option>Month</option>
+							      						<option>Jan</option>
+							      						<option>Feb</option>
+							      						<option>Mar</option>
+							      						<option>Apr</option>
+							      						<option>May</option>
+							      						<option>June</option>
+							      						<option>July</option>
+							      						<option>Aug</option>
+							      						<option>Sept</option>
+							      						<option>Oct</option>
+							      						<option>Nov</option>
+							      						<option>Dec</option>
+							      					</select>
+							      					<select class="Year">
+							      						<option>Year</option>
+							      						<option>2015</option>
+							      						<option>2016</option>
+							      						<option>2017</option>
+							      						<option>2018</option>
+							      						<option>2019</option>
+							      						<option>2020</option>
+							      					</select>
+							      			</div>
+							      			<div class="card cardy">
+							      				<p>Enter Cv2 Number</p>
+							      				<input type="text" placeholder="CVV" required="" id="cvv"/>
+							      			</div>
+							      			<div class="clearfix"></div>
+							      			<div class="step-f">
+												<input type="submit" value="STEP 4" aria-controls="tab_item-3" role="tab"/>
+											</div>
+							      		</div>
+																	     </div>	
+							     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+							     	<div class="confirm">
+							     		<h4>Contfirm The Deal</h4>
+							     		<p> Please click the check Box to confirm Your Deal</p>
+							     		 <a class="news-letter" href="#">
+											 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Confirm Your Deal</label>
+										   </a>
+										   <div class="cleafix"></div>
+										   <div class="step-d">
+												<input type="submit" value="Submit" onclick="getSubmit();" />
+											</div>
+	
+							     	</div>
+							     </div>
+							 </div>
+					      </div>
+					 </div>
+					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					    <script type="text/javascript">
+						    $(document).ready(function () {
+						        $('#horizontalTab').easyResponsiveTabs({
+						            type: 'default', //Types: default, vertical, accordion           
+						            width: 'auto', //auto or any width like 600px
+						            fit: true   // 100% fit in a container
+						        });
+						    });
+						   </script>
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row footer-row">
+				<div class="col-md-3 footer-column">
+					<h3>about alloy</h3>
+					<p>We are a group of professional from B.S.Abdur Rahman University who have teamed up with 'The North Face' to bring you their awesome Alloy Jacket at a massive 25% saving.</p>
+					<p>As official resellers, you get the same great service and warranty you’d get buying direct but at a considerable saving on cost.</p>
+				</div>
+				<div class="col-md-5 footer-column">
+					<h3>contact us</h3>
+					<p>We are reselling on behalf of The North Face, in the unlikely event you have a problem with your Alloy jacket you need to contact them direct on 1800 123 456 or consumercomplaint@northface.com</p>
+					<p class="dt">If you have any questions regarding our deal you can contact us at:</p>
+					<p>B.S.Abdur Rahman University, vandalur, Chennai, India</p>
+					<p>Tel: 9688333128</p>
+					<p class="em">Email: <a href="mailto:ziyaulhuk@gmail.com">Ziyaul Huk</a></p>
+				</div>
+				<div class="col-md-4 footer-column">
+					<h3>Follow us</h3>
+					<ul class="social">
+						<li><i class="ft-fa"></i></li>
+						<li><i class="ft-fb"></i></li>
+						<li><i class="ft-fc ft-act"></i></li>
+						<li><i class="ft-fd"></i></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<p class="copyright">2015 - Designed and Developed by&nbsp; <a href="http://ziyaulhuk.co.nr"><strong>Mohamed Fazurulla, Mohamed Shanooj </a></p>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						
+									
+						$().UItoTop({ easingType: 'easeOutQuart' });
+						
+					});
+				</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
